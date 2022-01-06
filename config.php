@@ -1,5 +1,5 @@
 <?php
-const APP_DOMAIN='http://demomvc.test/';
+const APP_DOMAIN='http://mvc.test/';
 
 // define connect database
 define('DB_HOST','127.0.0.1');
