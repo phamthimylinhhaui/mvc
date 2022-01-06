@@ -9,6 +9,9 @@
 
     <div class="page-wrapper">
         <div style="padding: 3%; width: 70%; margin:30px auto;">
+            <div class="col">
+                <h3 class="page-title">Chi tiết sản sản phẩm</h3>
+            </div>
         <div class="row">
 
             <div class="col-lg-6">
