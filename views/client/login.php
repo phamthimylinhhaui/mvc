@@ -93,7 +93,7 @@
                     </div>
                     <div class="form-group">
                         <label for=password" style="color:#F15B67;">Nhập lại mật khẩu</label>
-                        <input class="form-control text-box single-line password" data-val="true"  id="confirm_password" name="confirm_password" placeholder="Nhập lại mật khẩu" type="password" />
+                        <input class="form-control text-box single-line password" data-val="true"  id="confirm_password"  placeholder="Nhập lại mật khẩu" type="password" />
                     </div>
 
                     <div class="form-group">

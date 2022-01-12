@@ -48,6 +48,11 @@ class Model
 //        $query='INSERT INTO '.$this->table.$keys.' VALUES'.$newKey;
 //        $req=$this->db->prepare($query);
 //        $req->execute($data);
+
+        $data['created_at'] = date("Y-m-d H:i:s");
+        $data['updated_at'] = date("Y-m-d H:i:s");
+       //đặt lại định dạng năm tháng ngày cho ngày sinh để truyền vào csdl
+        $data['date_of_birth'] = date("Y-m-d");
 // xóa các trường k thuộc trong các thuộc tính
         foreach($data as $key => $value){
             if(!in_array($key,$this->attributes)){
@@ -70,8 +75,8 @@ class Model
         $query = 'INSERT INTO '.$this->table.' '.$keys.' VALUES '.$newKeys;
         $req = $this->db->prepare($query);
         $req->execute($data);
-    //dump($req->execute($data));
-// dump($query);
+ //   dump($req->execute($data));
+//dump($query);
          $req->fetch();
 //          echo 'đăng ký thành công';
 

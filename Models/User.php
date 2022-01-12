@@ -15,6 +15,7 @@ class User extends Model{
         'last_name',
         'date_of_birth'
 
+
     ];
 
     public function __construct($data = [])

@@ -9,7 +9,6 @@ const CONTROLLERS = array(
       'use'     => 'Client/HomeController',
       'action'  => 'index'
     ],
-
     [
         'method'  => 'GET',
         'url'     => '/home',
@@ -32,7 +31,6 @@ const CONTROLLERS = array(
         'use'     => 'Client/CategoryController',
         'action'  => 'category'
     ],
-
 // product
     [
         'method'  => 'GET',
@@ -49,7 +47,6 @@ const CONTROLLERS = array(
         'use'     => 'Client/CartController',
         'action'  => 'cart_index'
     ],
-
 //login
     [
         'method'  => 'GET',
@@ -98,8 +95,6 @@ const CONTROLLERS = array(
         'use'     => 'Client/LoginController',
         'action'  => 'index'//login
     ],
-
-
 //-----------------------ADMIN---------------------
 
 //login admin
