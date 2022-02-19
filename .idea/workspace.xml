@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9ec40303-c1be-4f3b-8178-baaa56b29494" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Repositories/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repositories/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/Validator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/user/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/client/auth/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/client/auth/script.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/client/user_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Admin/UserAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/UserAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Client/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Client/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Client/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Client/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Client/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Client/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Client/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/layouts/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/layouts/css.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/client/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/client/layouts/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/layouts/css.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/client/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/layouts/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/client/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/layouts/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/client/layouts/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/layouts/script.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/client/login.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="23agXw0WwCg9LhkzGCbcRkQdFvk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\laragon\www\mvc" />
+      <recent name="E:\laragon\www\mvc\libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\laragon\www\mvc\views\client\auth" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ec40303-c1be-4f3b-8178-baaa56b29494" name="Default Changelist" comment="" />
+      <created>1641977655152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641977655152</updated>
+      <workItem from="1641977657853" duration="990000" />
+      <workItem from="1642001341618" duration="1835000" />
+      <workItem from="1642003240862" duration="941000" />
+      <workItem from="1642043598877" duration="4102000" />
+      <workItem from="1642103468429" duration="61000" />
+      <workItem from="1642341383895" duration="21741000" />
+      <workItem from="1642402596598" duration="6167000" />
+      <workItem from="1642435214082" duration="1352000" />
+      <workItem from="1642553882470" duration="1196000" />
+      <workItem from="1642558773275" duration="14606000" />
+      <workItem from="1642610403554" duration="3170000" />
+      <workItem from="1642614036265" duration="7492000" />
+      <workItem from="1642640304557" duration="7504000" />
+      <workItem from="1642661591655" duration="7592000" />
+      <workItem from="1642692682985" duration="4295000" />
+      <workItem from="1642727969696" duration="5153000" />
+      <workItem from="1642786399033" duration="345000" />
+      <workItem from="1642786810925" duration="278000" />
+      <workItem from="1642815640596" duration="3590000" />
+      <workItem from="1642819323896" duration="4188000" />
+      <workItem from="1642824949013" duration="11567000" />
+      <workItem from="1642849364579" duration="7352000" />
+      <workItem from="1642932787207" duration="17225000" />
+      <workItem from="1642974544672" duration="187000" />
+      <workItem from="1642974784917" duration="9686000" />
+      <workItem from="1643030790719" duration="657000" />
+      <workItem from="1643164605110" duration="630000" />
+      <workItem from="1643165373998" duration="3320000" />
+      <workItem from="1643192623891" duration="1710000" />
+      <workItem from="1643245945327" duration="4966000" />
+      <workItem from="1643335708198" duration="2403000" />
+      <workItem from="1643466062748" duration="595000" />
+      <workItem from="1643760418303" duration="51000" />
+      <workItem from="1644245515442" duration="63000" />
+      <workItem from="1644245970765" duration="994000" />
+      <workItem from="1644284478512" duration="16017000" />
+      <workItem from="1644378374989" duration="11388000" />
+      <workItem from="1644467372300" duration="22000" />
+      <workItem from="1644501708646" duration="2312000" />
+      <workItem from="1644765080037" duration="6689000" />
+      <workItem from="1644803937942" duration="1298000" />
+      <workItem from="1644811714802" duration="599000" />
+      <workItem from="1644848218679" duration="603000" />
+      <workItem from="1644898935810" duration="181000" />
+      <workItem from="1644899408683" duration="516000" />
+      <workItem from="1644926373490" duration="35000" />
+      <workItem from="1645202869646" duration="53000" />
+      <workItem from="1645236993155" duration="682000" />
+      <workItem from="1645239511551" duration="1195000" />
+      <workItem from="1645252448267" duration="816000" />
+      <workItem from="1645254961291" duration="3924000" />
+      <workItem from="1645275823114" duration="631000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

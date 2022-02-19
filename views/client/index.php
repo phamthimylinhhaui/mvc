@@ -10,6 +10,7 @@ Trang chủ
 
 <!-- ---------------------Thân------------------- -->
 <?php startblock('content') ?>
+
 <div class="slider-area">
 
     <!-- Main Slider -->

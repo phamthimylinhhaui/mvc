@@ -1,0 +1,1 @@
+{"auth_user":{"id":"17","0":"17","username":"giang123","password":"202cb962ac59075b964b07152d234b70","email":"hg@gmail.com","first_name":"Giang","middle_name":"H\u01b0\u01a1ng","last_name":"Ph\u1ea1m","date_of_birth":"2022-02-17 00:00:00","avatar":null,"created_at":null,"updated_at":null,"deleted_at":null}}

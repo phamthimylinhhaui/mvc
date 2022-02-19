@@ -1,7 +1,10 @@
-<!--nhúng link-->
+
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-<title>Vascara - Website bán giày của linh</title>
+<title>Vascara - Website bán giày</title>
+<!--datepicker-->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css"/>
 
 <link rel="stylesheet" type="text/css" href="assets/client_source/assets/css/jquery.datetimepicker.min.css"/>
 <!--    <script src="assets/client/js/vendor/modernizr-2.8.3.min.js"></script>-->
@@ -26,8 +29,7 @@
 <!--cart_index-->
 <link rel="stylesheet" href="assets/client_source/assets/fonts/icofont/icofont.min.css">
 
-
-<!--register-->
+<!--SHOW-REGISTER(POPUP)-->
 <style>
     #show-login{
         padding: 10px 20px;
@@ -39,7 +41,7 @@
         cursor: pointer;
         border-radius: 5px;
     }
-    #register{
+    #register-form{
         line-height: 1.15;
         position: absolute;
         top: -150%;
@@ -55,7 +57,7 @@
         opacity 200ms ease-in-out 0ms,
         transform 200ms ease-in-out 0ms;
     }
-    #register.active{
+    #register-form.active{
         width: 30%;
         top: 100%;
         font-size: 14px;
@@ -65,7 +67,7 @@
         opacity 200ms ease-in-out 0ms,
         transform 200ms ease-in-out 0ms;
     }
-    #register .close-btn{
+    #register-form .close-btn{
         position: absolute;
         top: 10px;
         left: 10px;
@@ -79,6 +81,8 @@
         cursor: pointer;
     }
 </style>
+
+
 <!--category-->
 <style>
     .widgets-searchbox .input-field {
@@ -105,4 +109,28 @@
         border-radius: 10px;
         color: #bac34e;
     }
+    /*validate register*/
+    small.help-block {
+        color: red;
+        font-size: 12px;
+    }
+    label.input-group-text {
+        padding:10px 5px;
+        border-radius: 3px;
+        background: #F16E79;
+
+        color: white;
+    }
+/*avatar*/
+    img.avatar-header {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius:50% ;
+        margin: 10px;
+    }
+    .input-field{
+        width: 70% !important;
+    }
+
 </style>

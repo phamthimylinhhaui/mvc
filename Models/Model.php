@@ -27,33 +27,9 @@ class Model
     }
 
     public function create($data){
-//        dump($this->db);
-//        dump($data);
-
-//        $keys= array_keys($data);
-//        $keys='('.implode(',',$keys).')';//(username,pass,email)
-//
-//        foreach ($data as $key=>$value){
-//            $data[':'.$key] = $value;
-//            unset($data[$key]);
-//        }
-        //$data=[
-        //':username' ->'plt',
-        //':pass' ->'plt',
-        //];
-
-//        $newKey= array_keys($data);
-//        $newKey='('.implode(',',$newKey).')';//(:username,:pass,:email)
-//
-//        $query='INSERT INTO '.$this->table.$keys.' VALUES'.$newKey;
-//        $req=$this->db->prepare($query);
-//        $req->execute($data);
-
         $data['created_at'] = date("Y-m-d H:i:s");
         $data['updated_at'] = date("Y-m-d H:i:s");
-       //đặt lại định dạng năm tháng ngày cho ngày sinh để truyền vào csdl
-        $data['date_of_birth'] = date("Y-m-d");
-// xóa các trường k thuộc trong các thuộc tính
+
         foreach($data as $key => $value){
             if(!in_array($key,$this->attributes)){
                 unset($data[$key]);
@@ -73,14 +49,9 @@ class Model
 
 
         $query = 'INSERT INTO '.$this->table.' '.$keys.' VALUES '.$newKeys;
-        $req = $this->db->prepare($query);
-        $req->execute($data);
- //   dump($req->execute($data));
-//dump($query);
-         $req->fetch();
-//          echo 'đăng ký thành công';
-
-
+        $x=$this->db->prepare($query)->execute($data);
+        //dd($data);
+        return $this->find($this->db->lastInsertId());
 
     }
     public function update($data){
@@ -96,15 +67,14 @@ class Model
         return $this->find($this->id);
     }
     public function find($id){
-        $req = $this->db->prepare('SELECT * FROM '.$this->table.' WHERE id = :id AND deleted_at<>NULL' );
-        $req->execute(array('id' => $id));
+        $query = "SELECT * FROM ".$this->table." WHERE id=? AND ISNULL(deleted_at)";
+        $req = $this->db->prepare($query);
+        $req->execute([$id]);
         $modelAttributes = $req->fetch();
-
-        if (!$modelAttributes){
-            return NULL;
+        if(!$modelAttributes){
+            return null;
         }
 
-        //dump($item);
         return $this->setAttributes($modelAttributes);
     }
     public function deleteForever(){
@@ -118,10 +88,11 @@ class Model
            'deleted_at'=>date("Y-m-d H:i:s")
         ]);
     }
-    public function getList($statements=[]){
-        $query= "SELECT * FROM {$this->table} WHERE ".implode(' AND ',$statements)." AND ISNULL(deleted_at)";
+    public function getList($statements=[],$addQuery=''){
+        $statementsText=empty($statements)? "WHERE" : "WHERE ".implode(' AND ',$statements)." AND";
+        $query= "SELECT * FROM {$this->table} ".$statementsText." ISNULL(deleted_at)".$addQuery;
+
         $listModels=$this->db->query($query)->fetchAll();
-    //    dd($query);
         return array_map(function ($model){
             $user= new User();
             $user->setAttributes($model);

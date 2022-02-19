@@ -55,25 +55,47 @@
 
                             </button>
                         </div>
-
-
-
-
                     </div>
                     <div class="header-right">
                         <ul>
+<!--                                show tên người dùng-->
                             <li class="dropdown d-none d-md-block">
+                                <?php
+                                // dd(Auth::checkAuth());
+                                if (Auth::checkAuth()){
+                                ?>
+                                    <img class="avatar-header" src="<?php echo Auth::user()->getAvatar()?>">
+                                    <a href="<?php echo Route::name('edit-profile')?>">
+                                    <?php
+                                    echo Auth::user()->getFullName();
+                                    ?>
+                                    </a>
+                                 <?php
+                                }else{
+                                ?>
+                                        <div class="dropdown d-none d-md-block">
 
-                                <a href="/login" class="btn btn-link dropdown-toggle ht-btn p-0">
-                                    <i class="pe-7s-users"> </i>
-                                    <span
-                                            style=" color: #797676; padding-left: 7px; font-size: 16px; padding-top: 3px;">
-                                        Đăng nhập
-                                            </span>
+                                            <a href="/show-login" class="btn btn-link dropdown-toggle ht-btn p-0">
+                                                <i class="pe-7s-users" style="margin-left: 30px;"> </i>
+                                                <span style=" color: #797676; padding-left: 7px; font-size: 16px; padding-top: 3px;">Đăng nhập </span>
+                                            </a>
+                                        </div>
+                                        <?php
+                                    }
+                                    ?>
                                 </a>
-
-
-
+                            </li>
+                            </li>
+<!--                            show đăng xuất-->
+                            <li class="dropdown d-none d-md-block">
+                                <?php
+                                if (Auth::checkAuth()){
+                                    ?>
+                                    <a href="<?php echo Route::name('logout')?>">Đăng xuất
+                                    </a>
+                                    <?php
+                                }
+                                ?>
                             </li>
 
                             <li class="d-block d-lg-none" style="padding-top:6px">
@@ -158,7 +180,17 @@
 
                                 <li>
                                     <a href="/category">Giày Lười</a></li>
+                                <li>
 
+                                    <?php
+                                        if (Auth::checkAuth()){
+                                    ?>
+                                            <a href="<?php echo Route::name('admin.users')?>">Quản lý người dùng</a>
+                                    <?php
+                                        }
+                                    ?>
+
+                                </li>
 
                             </ul>
 

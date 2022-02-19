@@ -9,13 +9,13 @@ const CONTROLLERS = array(
       'use'     => 'Client/HomeController',
       'action'  => 'index'
     ],
-    [
-        'method'  => 'GET',
-        'url'     => '/home',
-        'name'    => 'home',
-        'use'     => 'Client/HomeController',
-        'action'  => 'index'
-    ],
+//    [
+//        'method'  => 'GET',
+//        'url'     => '/home',
+//        'name'    => 'home',
+//        'use'     => 'Client/HomeController',
+//        'action'  => 'index'
+//    ],
     [
         'method'  => 'POST',
         'url'     => '/home_post',
@@ -47,20 +47,76 @@ const CONTROLLERS = array(
         'use'     => 'Client/CartController',
         'action'  => 'cart_index'
     ],
-//login
+//user
     [
         'method'  => 'GET',
-        'url'     => '/login',
-        'name'    => 'login',
-        'use'     => 'Client/LoginController',
-        'action'  => 'login'//login
+        'url'     => '/user_detail',
+        'name'    => 'user_detail',
+        'use'     => 'Client/UserController',
+        'action'  => 'user_detail'
     ],
+//login
     [
         'method'  => 'POST',
         'url'     => '/index',
         'name'    => 'login.post',
         'use'     => 'client/LoginController',
         'action'  => 'index'
+    ],
+
+    [
+        'method'  => 'GET',
+        'url'     => '/show-login',
+        'name'    => 'auth.show-login',
+        'use'     => 'client/AuthController',
+        'action'  => 'showLogin'
+    ],
+
+
+    [
+        'method'  => 'POST',
+        'url'     => '/index',
+        'name'    => 'login.home',
+        'use'     => 'Client/LoginController',
+        'action'  => 'login'//index
+    ],
+
+    [
+        'method'  => 'GET',
+        'url'     => '/users/{user_id}/edit',
+        'name'    => 'users.edit',
+        'use'     => 'Client/UserController',
+        'action'  => 'user_edit'
+    ],
+    [
+        'method'  => 'POST',
+        'url'     => '/login',
+        'name'    => 'auth.login',
+        'use'     => 'Client/AuthController',
+        'action'  => 'login'
+    ],
+    [
+        'method'  => 'GET',
+        'url'     => '/edit-profile',
+        'name'    => 'edit-profile',
+        'use'     => 'Client/AuthController',
+        'action'  => 'editProfile'
+    ],
+//profile
+    [
+        'method'  => 'POST',
+        'url'     => '/update-profile',
+        'name'    => 'update-profile',
+        'use'     => 'Client/AuthController',
+        'action'  => 'updateProfile'
+    ],
+//logout
+    [
+        'method'  => 'GET',
+        'url'     => '/logout',
+        'name'    => 'logout',
+        'use'     => 'Client/AuthController',
+        'action'  => 'logout'
     ],
 // register
     [
@@ -70,30 +126,12 @@ const CONTROLLERS = array(
         'use'     => 'Client/AuthController',
         'action'  => 'register'
     ],
-
-//user
-    [
-        'method'  => 'GET',
-        'url'     => '/user_detail',
-        'name'    => 'user_detail',
-        'use'     => 'Client/UserController',
-        'action'  => 'user_detail'
-    ],
-
-//test login
     [
         'method'  => 'POST',
-        'url'     => '/index',
-        'name'    => 'login.home',
-        'use'     => 'Client/LoginController',
-        'action'  => 'login'//index
-    ],
-    [
-        'method'  => 'POST',
-        'url'     => '/login',
-        'name'    => 'login',
-        'use'     => 'Client/LoginController',
-        'action'  => 'index'//login
+        'url'     => '/check-username',
+        'name'    => 'auth.check-duplicate-username',
+        'use'     => 'Client/AuthController',
+        'action'  => 'checkUsername'
     ],
 //-----------------------ADMIN---------------------
 
@@ -193,7 +231,7 @@ const CONTROLLERS = array(
         'url'     => '/user_admin',
         'name'    => 'user_admin',
         'use'     => 'Admin/UserAdminController',
-        'action'  => 'index'
+        'action'  => 'index1'
     ],
     [
         'method'  => 'GET',
@@ -209,8 +247,14 @@ const CONTROLLERS = array(
         'use'     => 'Admin/UserAdminController',
         'action'  => 'edit'
     ],
-
-
+//----manger users
+    [
+        'method'  => 'GET',
+        'url'     => '/admin-users',
+        'name'    => 'admin.users',
+        'use'     => 'Admin/UserAdminController',
+        'action'  => 'index'
+    ],
 
 
 //    [

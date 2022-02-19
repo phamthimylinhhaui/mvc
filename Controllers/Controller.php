@@ -11,7 +11,7 @@ class Controller{
         $route=new Route();
         $currentRoute=$route->getCurrentRoute();
         $getData=$currentRoute['parameters'];
-        return array_merge($getData,$_POST);
+        return array_merge($getData,$_POST, $_FILES);
     }
 
 	public function view($file, $data = array())
@@ -29,5 +29,17 @@ class Controller{
       	$content = ob_get_clean();
 
       	require_once($viewFile);
+      	return true;
 	}
+
+    public function response($data=array()){
+        echo json_encode($data, false);
+        die();
+    }
+
+    public function redirect($url){//chuyển trang
+        header('Location: '.$url);
+        exit();
+        session_start();
+    }
 }

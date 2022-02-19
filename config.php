@@ -7,3 +7,5 @@ define('DB_NAME','demo');
 define('DB_USERNAME','root');
 define('DB_PASSWORD','');
 define('DB_CHARSET','utf8');
+
+define('AUTH_KEY','auth_user');

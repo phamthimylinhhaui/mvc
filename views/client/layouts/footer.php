@@ -93,13 +93,13 @@
                         <ul class="widget-list-item">
 
                             <li>
-                                <a href="/login">Đăng Nhập</a>
+                                <a href="/show-login">Đăng Nhập</a>
                             </li>
 <!--                            <li>-->
 <!--                                <a href="?controller=users&action=register">Đăng Kí</a>-->
 <!--                            </li>-->
                             <li>
-                                <a href="/login"> Đăng Xuất</a>
+                                <a href="/show-login"> Đăng Xuất</a>
                             </li>
                             <li>
                                 <a href="/cart_index"> Giỏ Hàng</a>
