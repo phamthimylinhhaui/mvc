@@ -5,33 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ec40303-c1be-4f3b-8178-baaa56b29494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Repositories/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositories/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/Validator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/user/index1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/client/auth/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/client/auth/script.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/client/user_edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Admin/UserAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/UserAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Client/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Client/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Client/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Client/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Client/LoginController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Client/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Client/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/layouts/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/layouts/css.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/client/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/client/layouts/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/layouts/css.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/client/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/layouts/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/client/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/layouts/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/client/layouts/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/layouts/script.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/client/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/client/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/profile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bt_mang" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -138,7 +114,9 @@
       <workItem from="1645239511551" duration="1195000" />
       <workItem from="1645252448267" duration="816000" />
       <workItem from="1645254961291" duration="3924000" />
-      <workItem from="1645275823114" duration="631000" />
+      <workItem from="1645275823114" duration="4281000" />
+      <workItem from="1645335316990" duration="965000" />
+      <workItem from="1645381632176" duration="4118000" />
     </task>
     <servers />
   </component>

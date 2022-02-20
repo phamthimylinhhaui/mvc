@@ -87,16 +87,16 @@
 
 
                 <div class="row form-group">
-                    <div class="col-6"><button class="btn btn-success btn-block" type="submit">
+                    <div class="col-6">
+                        <button class="btn btn-info btn-block" type="submit">
                             Cập nhật thông tin
-                        </button></div>
-                    <div class="col-6"><button class="btn btn-success btn-block" type="button" ">
-<!--                        onclick="updateUser(this.parentElement.parentElement.parentElement)-->
+                        </button>
+                    </div>
+                    <div class="col-6">
+                        <button class="btn btn-info btn-block" type="button" onclick="updateUser(this.parentElement.parentElement.parentElement);">
                             Cập nhật qua AJAX
                         </button>
                     </div>
-
-
                 </div>
             </form>
         </div>
@@ -111,6 +111,30 @@
             var imageAvatar = form.find('.avatar').first();
             var imageInput  = form.find('.input-avatar').first();
             initImageFile(imageAvatar, imageInput);
+        }
+
+        function updateUser(form){
+            var form = $(form);
+
+            var data={
+                'email':form.find('.email').first().val(),
+                'fullname':form.find('.fullname').first().val(),
+                'date_of_birth':form.find('.date-of-birth').first().val(),
+                'avatar':form.find('.avatar').first().attr('src')
+            };
+            console.log(data);
+            //gửi ajax
+            $.ajax({
+                url:"<?php echo Route::name('update-profile');?>",
+                type: "POST",
+                data: data,
+                success: function (data){
+
+                },
+                error: function (){
+                    console.log(data);
+                }
+            });
         }
 
         //function updateUser(form){
