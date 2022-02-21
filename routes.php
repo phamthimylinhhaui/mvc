@@ -228,8 +228,8 @@ const CONTROLLERS = array(
 //user
     [
         'method'  => 'GET',
-        'url'     => '/user_admin',
-        'name'    => 'user_admin',
+        'url'     => '/admin-user',
+        'name'    => 'adminUser',
         'use'     => 'Admin/UserAdminController',
         'action'  => 'index1'
     ],
@@ -250,7 +250,7 @@ const CONTROLLERS = array(
 //----manger users
     [
         'method'  => 'GET',
-        'url'     => '/admin-users',
+        'url'     => '/admin_users',
         'name'    => 'admin.users',
         'use'     => 'Admin/UserAdminController',
         'action'  => 'index'

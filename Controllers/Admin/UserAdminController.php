@@ -34,7 +34,8 @@ class UserAdminController extends Controller
     {
         $users=$this->repository->getAllUser();
         //dd($users);
-        return $this->view('admin/user/index');
+        return $this->view('admin/user/index',compact('users'));
+
     }
 
 

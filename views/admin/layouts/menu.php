@@ -68,7 +68,7 @@
                     </a>
                 </li>
                 <li class="">
-                    <a href="/user_admin">
+                    <a href="<?php echo Route::name("adminUser")?>" >
                         <i class="fas fa-user"></i>
                         <span>Quản lý tài khoản </span>
                     </a>

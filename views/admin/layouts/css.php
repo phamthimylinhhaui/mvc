@@ -32,14 +32,8 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/admin_source/css/admin.css" />
     <link href="assets/admin_source/css/toastr.css" rel="stylesheet" />
-<style type="text/css">
-    .container {
-        width: 80%;
-        padding: 50px;
-        margin-top: 70px;
-        margin-left: 2725px;
-    }
-</style>
+
+
 
 
 

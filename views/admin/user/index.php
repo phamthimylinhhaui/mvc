@@ -8,13 +8,14 @@ include 'views/admin/layouts/master.php' ?>
 
 
 <?php startblock('css') ?>
-
+    <?php include "views/admin/user/css.php"?>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-2.2.4/dt-1.10.13/fc-3.2.2/fh-3.1.2/r-2.1.0/sc-1.4.2/datatables.min.css" />
 <?php endblock() ?>
 
 
 <?php startblock('content') ?>
     <div class="container">
-        <table class="table">
+        <table class="table users-table table-hover" id="list-users">
             <thead>
                 <tr>
                     <th>
@@ -24,16 +25,16 @@ include 'views/admin/layouts/master.php' ?>
                         Ảnh đại diện
                     </th>
                     <th>
-                        Tên người dùng
+                        <input type="text" class="form-control" placeholder="Tên người dùng">
                     </th>
                     <th>
-                        Tên tài khoản
+                        <input type="text" class="form-control" placeholder="Tên tài khoản">
                     </th>
                     <th>
-                        Ngày sinh
+                        <input type="text" class="form-control" placeholder="Ngày sinh">
                     </th>
                     <th>
-                        Liên hệ
+                        <input type="text" class="form-control" placeholder="Liên hệ">
                     </th>
                     <th>
                         Tùy chọn
@@ -42,39 +43,49 @@ include 'views/admin/layouts/master.php' ?>
             </thead>
 
             <tbody>
-                <?php ?>
-                    <tr>
-                        <td>
+            <?php foreach($users as $user){
 
-                        </td>
-                        <td>
-                            <img src="<?php echo $user->getAvatar();?>" class="avatar">
-                        </td>
-                        <td>
-                            <?php echo $user->getFullName();?>
-                        </td>
-                        <td>
-                            <?php echo $user->username;?>
-                        </td>
-                        <td>
-                            <?php echo $user->getDateOfBirth();?>
-                        </td>
-                        <td>
-                            <p>
-                                <i class="fa fa-email"></i> <?php echo $user->email;?>
-                            </p>
-                        </td>
-                        <td>
+                ?>
 
-                        </td>
-                    </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        <img src="<?php echo $user->getAvatar();?>" class="avatar">
+                    </td>
+                    <td>
+                        <?php echo $user->getFullName();?>
+                    </td>
+                    <td>
+                        <?php echo $user->username;?>
+                    </td>
+                    <td>
+                        <?php echo $user->getDateOfBirth();?>
+                    </td>
+                    <td>
+                        <p>
+                            <i class="fa fa-email"></i> <?php echo $user->email;?>
+                        </p>
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+            <?php }?>
             </tbody>
         </table>
     </div>
 <?php endblock() ?>
-<?php endblock() ?>
 
 
 <?php startblock('script') ?>
-
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/fixedcolumns/3.2.2/js/dataTables.fixedColumns.min.js"></script>
+<script>
+    $(document).ready(function(){
+        initDatatable($('#list-users'),true);
+    });
+</script>
 <?php endblock() ?>
