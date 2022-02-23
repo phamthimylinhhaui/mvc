@@ -102,7 +102,7 @@
                 [25, 50, 100, 200, 'All'],
             ],
 
-            iDisplayLength: 3,
+            iDisplayLength: 2,
         };
 
         Object.assign(datatableConfig,config);
@@ -134,5 +134,36 @@
         return table;
     }
 
+    function showAllRowsDatatable(table){ // datatable element
+        var setting                    = table.settings();
+        setting[0]._iDisplayLength = setting[0].fnRecordsTotal();
+        table.draw();
+    }
 
+
+    function initDatepicker(picker){
+
+        picker.datepicker({
+            todayHighlight: !0,
+            format        : 'dd-mm-yyyy',
+            autoclose     : true,
+        });
+
+        return picker;
+    }
+
+    function initImageFile(image, inputFile){
+        image.click(function(){
+            inputFile.trigger('click');
+        });
+        inputFile.change(function(){
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                var img = image[0];
+                img.src = e.target.result;
+            };
+            reader.readAsDataURL(inputFile[0].files[0]);
+        });
+    }
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"defer></script>

@@ -96,6 +96,7 @@ class AuthController extends Controller
         $user = Auth::user();
         // TODO SOMETHING validate data
         $name=$this->userRepository->analysisName($this->data['fullname']);
+
         $this->data=array_merge($this->data,$name);
         $user = $this->userRepository->updateUser($user, $this->data);
         Auth::setUser($user);

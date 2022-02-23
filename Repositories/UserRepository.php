@@ -22,7 +22,6 @@ class UserRepository{
 
     public function updateUser( $user, $data)
     {
-
         $avatar = $user->avatar;
         $filename = $this->avatarPath.$user->username.'-'.time();
         if (isset($data['avatar'])) {
@@ -49,6 +48,39 @@ class UserRepository{
         );
 
         $user->update($dataUpdate);
+
+        return $user;
+    }
+    public function updateUser1( $user, $data)
+    {
+
+        $avatar = $user->avatar;
+        $filename = $this->avatarPath.$user->username.'-'.time();
+        if (isset($data['avatar'])) {
+            if (is_string($data['avatar'])) {
+                $avatar = File::uploadBase64($data['avatar'], $filename);
+            } else {
+                $avatar = File::uploadFile($data['avatar'], $filename);
+            }
+
+            if (!$avatar) {
+                $avatar = $user->avatar;
+            }
+
+        }
+
+
+        $dataUpdate = array(
+            'id'            =>$data['id'],
+            'avatar'        => $avatar,
+            'email'         => isset($data['email']) ? $data['email'] : $user->email,
+            'first_name'    => isset($data['first_name']) ? $data['first_name'] : $user->first_name,
+            'middle_name'   => isset($data['middle_name']) ? $data['middle_name'] : $user->middle_name,
+            'last_name'     => isset($data['last_name']) ? $data['last_name'] : $user->last_name,
+            'date_of_birth' => isset($data['date_of_birth']) ? dateFormat($data['date_of_birth'],'Y-m-d') : $user->date_of_birth,
+        );
+        // dd($dataUpdate);
+        $user->update1($dataUpdate);
 
         return $user;
     }

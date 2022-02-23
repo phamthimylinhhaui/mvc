@@ -69,17 +69,30 @@ include 'views/admin/layouts/master.php' ?>
                         </p>
                     </td>
                     <td>
-
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#edit-user"
+                        onclick="showFormEdit(<?php echo $user->id; ?>)">
+                            Sửa
+                        </button>
                     </td>
                 </tr>
             <?php }?>
             </tbody>
         </table>
+
+        <!-- Modal -->
+        <div class="modal fade" id="edit-user" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                </div>
+            </div>
+        </div>
     </div>
 <?php endblock() ?>
 
 
 <?php startblock('script') ?>
+<?php include "views/admin/user/script.php"?>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/fixedcolumns/3.2.2/js/dataTables.fixedColumns.min.js"></script>

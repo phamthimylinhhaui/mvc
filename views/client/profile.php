@@ -22,7 +22,7 @@
     }
     .avatar {
         object-fit: cover;
-        width: 200px;
+        width: 150px;
         height: 150px;
         border-radius: 50%;
         display: block;

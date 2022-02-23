@@ -7,12 +7,23 @@
     <list default="true" id="9ec40303-c1be-4f3b-8178-baaa56b29494" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/Admin/UserAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/UserAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Client/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Client/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/UserRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/sess_09r6mjd986qiak5d2e2jikbn1v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/sess_8mabvekf30n9fhlqile04j2849" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/sess_8v31bk5boeg2mlgfhdsugpkumk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/sess_920ou6ker00n0s13nuieeva6vp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/sess_9b72q20g862n773e21rm17ambj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/sess_ap1m1no2qqt3rcgtujqg8k2ga0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/sess_cecipmbccr1dsr6shdfo9fq95p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/sess_hg80jo4sf5lo06h4pn9il53gr7" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/layouts/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/layouts/css.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/layouts/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/layouts/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/layouts/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/layouts/script.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/user/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/script.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/client/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/profile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +132,11 @@
       <workItem from="1645254961291" duration="3924000" />
       <workItem from="1645275823114" duration="4281000" />
       <workItem from="1645335316990" duration="965000" />
-      <workItem from="1645381632176" duration="19297000" />
+      <workItem from="1645381632176" duration="20822000" />
+      <workItem from="1645542328217" duration="9855000" />
+      <workItem from="1645569272388" duration="2201000" />
+      <workItem from="1645583498473" duration="12908000" />
+      <workItem from="1645602907962" duration="8097000" />
     </task>
     <servers />
   </component>

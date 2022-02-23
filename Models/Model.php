@@ -15,7 +15,7 @@ class Model
 
     public function setAttributes($data){
 
-        $this->attributes = array_merge($this->attributes, ['id','created_at','updated_at','deleted_at']);
+        $this->attributes = array_merge($this->attributes, ['id','avatar','created_at','updated_at','deleted_at']);
 
         foreach($data as $field => $value){
             if(in_array($field,$this->attributes)){
@@ -55,6 +55,7 @@ class Model
 
     }
     public function update($data){
+       // dd($data);
         $attributesUpdate= array_keys($data);
         $attributesUpdate=implode("=?, ",$attributesUpdate);
         $attributesUpdate=$attributesUpdate.'=? ';
@@ -64,8 +65,24 @@ class Model
 
         $query= "UPDATE {$this->table} SET {$attributesUpdate} WHERE id={$this->id}";
         $this->db->prepare($query)->execute($valuesUpdate);
+        //dd($a);
         return $this->find($this->id);
     }
+    public function update1($data){
+        //dd($data);
+        $attributesUpdate= array_keys($data);
+        $attributesUpdate=implode("=?, ",$attributesUpdate);
+        $attributesUpdate=$attributesUpdate.'=? ';
+
+        $valuesUpdate=array_values($data);
+
+
+        $query= "UPDATE {$this->table} SET {$attributesUpdate} WHERE id={$data['id']}";
+        $a=$this->db->prepare($query)->execute($valuesUpdate);
+        //dd($a);
+        return $this->find($this->id);
+    }
+
     public function find($id){
         $query = "SELECT * FROM ".$this->table." WHERE id=? AND ISNULL(deleted_at)";
         $req = $this->db->prepare($query);

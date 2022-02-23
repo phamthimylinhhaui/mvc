@@ -255,7 +255,21 @@ const CONTROLLERS = array(
         'use'     => 'Admin/UserAdminController',
         'action'  => 'index'
     ],
+    [
+        'method'  => 'POST',
+        'url'     => '/admin_users/show-form-edit',
+        'name'    => 'admin.users.show-form-edit',
+        'use'     => 'Admin/UserAdminController',
+        'action'  => 'showFormEdit'
+    ],
 
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/edit-user',
+        'name'    => 'admin.user.edit-user',
+        'use'     => 'Admin/UserAdminController',
+        'action'  => 'editUser'
+    ],
 
 //    [
 //        'method'  => 'GET',
