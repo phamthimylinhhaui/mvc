@@ -265,10 +265,33 @@ const CONTROLLERS = array(
 
     [
         'method'  => 'POST',
-        'url'     => '/admin/edit-user',
+        'url'     => '/admin_user/edit-user',
         'name'    => 'admin.user.edit-user',
         'use'     => 'Admin/UserAdminController',
         'action'  => 'editUser'
+    ],
+
+
+    [
+        'method'  => 'POST',
+        'url'     => '/admin_user/show-form-create',
+        'name'    => 'admin.users.show-form-create',
+        'use'     => 'Admin/UserAdminController',
+        'action'  => 'showFormCreate'
+    ],
+    [
+        'method'  => 'POST',
+        'url'     => '/admin_user/create-user',
+        'name'    => 'admin.users.create-user',
+        'use'     => 'Admin/UserAdminController',
+        'action'  => 'createUser'
+    ],
+    [
+        'method'  => 'POST',
+        'url'     => '/admin_user/delete-user',
+        'name'    => 'admin.users.delete',
+        'use'     => 'Admin/UserAdminController',
+        'action'  => 'deleteUser'
     ],
 
 //    [

@@ -29,6 +29,8 @@
 <!--cart_index-->
 <link rel="stylesheet" href="assets/client_source/assets/fonts/icofont/icofont.min.css">
 
+<!--font_someone-->
+<link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <!--SHOW-REGISTER(POPUP)-->
 <style>
     #show-login{

@@ -15,4 +15,10 @@
         color: black;
         font-weight: 700;
     }
+
+    .create-user{
+        margin-bottom: 20px;
+        padding: 10px 10px;
+        font-size: 14px;
+    }
 </style>

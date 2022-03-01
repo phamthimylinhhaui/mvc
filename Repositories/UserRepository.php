@@ -7,7 +7,8 @@ class UserRepository{
     public function createUser($data){
         //dd($data);
         $name = $this->analysisName($data['fullname']);
-
+        //dd($data['fullname']);
+        //dd($name);
         $dataCreate = [
             'username' => $data['username'],
             'email'    => isset($data['email']) ? $data['email'] : '',
@@ -16,6 +17,29 @@ class UserRepository{
         ];
 
         $dataCreate = array_merge($dataCreate, $name);//gộp mảng
+        //dd($dataCreate);
+
+        return (new User())->create($dataCreate);
+    }
+
+    public function createUser2($data){
+        //dd($data);
+        $name = $this->analysisName($data['fullname']);
+        //dd($data['fullname']);
+        //dd($name);
+
+        $filename = $this->avatarPath.'-'.time();
+        $avatar= File::uploadBase64($data['avatar'], $filename);;
+        $dataCreate = [
+            'avatar'        => $avatar,
+            'username' => $data['username'],
+            'email'    => isset($data['email']) ? $data['email'] : '',
+            'password' => md5($data['password']),//password_hash($data['password'],PASSWORD_BCRYPT),
+            'date_of_birth' => date_format(date_create($data['date_of_birth']), 'Y-m-d')
+        ];
+
+        $dataCreate = array_merge($dataCreate, $name);//gộp mảng
+        //dd($dataCreate);
 
         return (new User())->create($dataCreate);
     }

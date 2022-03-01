@@ -51,35 +51,52 @@ class UserAdminController extends Controller
                 'message' => 'Không tìm thấy người dùng'
             ]);
         }
-
         return $this->view('admin/user/edit_user',compact('user'));
     }
 
 
     public function editUser(){
-       // dd($this->data);
-//
-
-
-//dd($user);
         //TODO SOMETHING: validate data
         $name=$this->userRepository->analysisName($this->data['fullname']);
         // nối mảng
         $this->data=array_merge($this->data,$name);
         $user = (new User())->find($this->data['id']);
+
         $user=$this->userRepository->updateUser($user, $this->data);
 
         // chuyển về trang index
-       // $users=$this->userRepository->getAllUser();
-        return $this->view('admin/user/index');
+        //$users=$this->userRepository->getAllUser();
+        //return $this->view('admin/user/thanhcong');
+        //index();
     }
 
+    public function showFormCreate(){
+       // dd($this->data);
+        $user= new User();
+        return $this->view('admin/user/create_user',compact('user'));
+    }
 
-    public function edit2(){
-//        dd($_FILES);
-        $user=Auth::user();
+    public function createUser(){
+       //dd($this->data);
+        $user=$this->userRepository->createUser2($this->data) ;
+        return $this->view('admin/user/create_user');
+    }
 
-        return $this->view('admin/user/index',compact('user'));
+    public function deleteUser(){
+        $user = (new User())->find($this->data['user_id']);
+
+        if(is_null($user)){
+            return $this->response([
+                'message' => 'Không tìm thấy người dùng',
+            ]);
+        }
+
+       // $user->delete();
+        return $this->response([
+            'code'=>200,
+            'message'=>"Xóa người dùng thành công",
+        ]);
+
     }
 
 

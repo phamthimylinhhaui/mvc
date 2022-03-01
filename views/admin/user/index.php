@@ -15,6 +15,20 @@ include 'views/admin/layouts/master.php' ?>
 
 <?php startblock('content') ?>
     <div class="container">
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary create-user" data-toggle="modal" data-target="#create-user" onclick="showFormCreateUser();">
+            Thêm mới
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="create-user" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content create-user">
+
+                </div>
+            </div>
+        </div>
+
         <table class="table users-table table-hover" id="list-users">
             <thead>
                 <tr>
@@ -47,7 +61,7 @@ include 'views/admin/layouts/master.php' ?>
 
                 ?>
 
-                <tr>
+                <tr id="user-row-<?php echo $user->id; ?>">
                     <td>
 
                     </td>
@@ -73,6 +87,11 @@ include 'views/admin/layouts/master.php' ?>
                         onclick="showFormEdit(<?php echo $user->id; ?>)">
                             Sửa
                         </button>
+
+                        <button type="button" class="btn btn-danger" onclick="deleteUser(<?php echo $user->id; ?>)">
+                            Xóa
+                        </button>
+
                     </td>
                 </tr>
             <?php }?>
@@ -98,6 +117,8 @@ include 'views/admin/layouts/master.php' ?>
 <script type="text/javascript" src="https://cdn.datatables.net/fixedcolumns/3.2.2/js/dataTables.fixedColumns.min.js"></script>
 <script>
     $(document).ready(function(){
+       // alert("Thành công",'success');
+
         initDatatable($('#list-users'),true);
     });
 </script>

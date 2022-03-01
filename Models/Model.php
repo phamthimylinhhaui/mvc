@@ -27,6 +27,7 @@ class Model
     }
 
     public function create($data){
+//     dd($data);
         $data['created_at'] = date("Y-m-d H:i:s");
         $data['updated_at'] = date("Y-m-d H:i:s");
 
@@ -37,6 +38,7 @@ class Model
         }
 
         $keys = array_keys($data);
+        //dd($keys);
         $keys = '(' . implode(', ',$keys) . ')';
 
         foreach($data as $key => $value){
@@ -49,8 +51,9 @@ class Model
 
 
         $query = 'INSERT INTO '.$this->table.' '.$keys.' VALUES '.$newKeys;
+//        dd($query);
         $x=$this->db->prepare($query)->execute($data);
-        //dd($data);
+        //dd($x);
         return $this->find($this->db->lastInsertId());
 
     }

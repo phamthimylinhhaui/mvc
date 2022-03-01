@@ -27,13 +27,13 @@
 </style>
 
 <div class="modal-header">
-    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+    <h5 class="modal-title" id="exampleModalLabel">Sửa thông tin người dùng</h5>
     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
     </button>
 </div>
 <div class="modal-body">
-    <form action="<?php echo Route::name('update-profile');?>" method="POST"  id="edit-user-form" enctype="multipart/form-data" >
+    <form action="" method="POST"  id="edit-user-form" enctype="multipart/form-data" >
 
         <div class="row form-group" align="center">
             <img src="<?php echo $user->getAvatar()?>" class="avatar1"/>

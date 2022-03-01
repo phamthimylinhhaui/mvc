@@ -23,7 +23,7 @@
     .avatar {
         object-fit: cover;
         width: 150px;
-        height: 150px;
+        height: 120px;
         border-radius: 50%;
         display: block;
         margin: auto;
@@ -137,29 +137,6 @@
             });
         }
 
-        //function updateUser(form){
-        //    var form=$(form);
-        //
-        //    var data={
-        //        'email': form.find('.email').first().val(),
-        //        'fullname':form.find('.email').first().val(),
-        //        'date_of_birth':form.find('.email').first().val(),
-        //        'avatar':form.find('.avatar').first().attr(),
-        //    }
-        //
-        //    //gửi ajax
-        //    $.ajax({
-        //        url:"<?php //echo Route::name('update-profile')?>//",
-        //        type:"POST",
-        //        data:data,
-        //        success:function (data){
-        //            console.log(data);
-        //        }
-        //        error:function (){
-        //
-        //        }
-        //    });
-        //}
 
         $(document).ready(function(){
 
