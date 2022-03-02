@@ -101,6 +101,9 @@
         var imageInput  = form.find('.input-avatar1').first();
         initImageFile(imageAvatar, imageInput);
     }
+
+
+
     function updateUser(form,userId){
         var form = $(form);
         var data={
@@ -117,6 +120,10 @@
             type: "POST",
             data: data,
             success: function (data){
+                alert("Cập nhật người dùng thành công",'success');
+                setTimeout(function (){
+                    location.reload();
+                },3000);
             },
             error: function (){
                 //console.log(data);

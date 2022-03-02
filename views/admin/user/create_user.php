@@ -3,7 +3,14 @@
         width: 100%;
         color: black;
         font-size: 14px;
-
+    }
+    .avatar2 {
+        object-fit: cover;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
     }
 </style>
 
@@ -17,7 +24,7 @@
     <form action=""  method="POST"  id="form-create-user" enctype="multipart/form-data" >
 
         <div class="row form-group" align="center">
-            <img src="<?php echo $user->getAvatar()?>" class="avatar2"/>
+            <img src="http://mvc.test/public/avatar/no-avatar.png" class="avatar2"/>
             <input type="file" name="avatar"  class="input-avatar2" style="display:none;" />
 
         </div>
@@ -86,7 +93,11 @@
         </div>
     </form>
 </div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
 <script type="text/javascript">
+
+
     function initCreateUserForm(){
         var form = $('#form-create-user');
         initDatepicker(form.find('.date-of-birth2').first());
@@ -95,6 +106,106 @@
         initImageFile(imageAvatar, imageInput);
     }
 
+    //validate create
+    function validateRegisterForm(){
+
+        // var datepicker = $('#register-form').find('.date-of-birth').first();
+        // initDatepicker(datepicker);
+
+        $('#form-create-user').bootstrapValidator({
+            message: 'This value is not valid',
+            feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields: {
+                username: {
+                    container: '.username-validate',
+                    validators: {
+                        notEmpty: {
+                            message: 'Cần phải nhập tên tài khoản'
+                        },
+                        stringLength: {
+                            min: 6,
+                            max: 30,
+                            message: 'Tên tài khoản phải từ 6-30 ký tự'
+                        },
+                        regexp: {
+                            regexp: /^[a-zA-Z0-9_\.]+$/,
+                            message: 'Tên tài khoản không được chứa ký tự đặc biệt'
+                        },
+                        different: {
+                            field: 'password',
+                            message: 'Tên tài khoản không được giống mật khẩu'
+                        },
+                        remote: {
+                            message: "Tên tài khoản đã được sử dụng",
+                            url: "<?php echo Route::name('auth.check-duplicate-username')?>",
+                            data: {
+                                username: 'username'
+                            },
+                            dataType: 'JSON',
+                            type: 'POST',
+                            delay: 2000     // Send Ajax request every 2 seconds
+                        }
+                    }
+                },
+                email: {
+                    container: '.email-validate',
+                    validators: {
+                        emailAddress: {
+                            message: 'Email phải đúng định dạng'
+                        }
+                    }
+                },
+                password: {
+                    container: '.password-validate',
+                    validators: {
+                        notEmpty: {
+                            message: 'Mật khẩu không được để trống'
+                        },
+                        identical: {
+                            field: 'password',
+                            message: "Bạn phải nhập lại mật khẩu chính xác",
+                        }
+                    }
+                },
+
+                re_password: {
+                    container: '.re-password-validate',
+                    validators: {
+                        notEmpty: {
+                            message: 'Bạn phải nhập lại mật khẩu'
+                        },
+                        identical: {
+                            field: 'password',
+                            message: "Bạn phải nhập lại mật khẩu chính xác",
+                        }
+                    }
+                },
+
+                full_name: {
+                    container: '.fullname-validate',
+                    validators: {
+                        notEmpty: {
+                            message: 'Cần phải nhập họ tên'
+                        }
+                    }
+                },
+
+                date_of_birth: {
+                    container: '.date-of-birth-validate',
+                    validators: {
+                        notEmpty: {
+                            message: 'Cần phải nhập ngày sinh'
+                        }
+                    }
+                },
+
+            }
+        });
+    }
 
     function createUser(form){
         var form = $(form);
@@ -113,7 +224,10 @@
             type: "POST",
             data: data,
             success: function (data){
-                //console.log(data);
+                alert("Thêm mới người dùng thành công",'success');
+                setTimeout(function (){
+                    location.reload();
+                },3000);
             },
             error: function (){
                 //console.log(data);
@@ -123,7 +237,7 @@
 
 
     $(document).ready(function(){
-
+        //validateRegisterForm();
         initCreateUserForm();
 
     });

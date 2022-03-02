@@ -156,8 +156,9 @@
                                         <i class="pe-7s-home" style="font-size:20px"></i>
 
                                     </a>
-
                                 </li>
+
+
                                 <li>
                                     <a href="<?php echo Route::name('category')?>">Giày Cao gót</a></li>
 
