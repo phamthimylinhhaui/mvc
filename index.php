@@ -7,7 +7,7 @@ session_start(array(
     'read_and_close' => true,
 ));
 session_unset();
-
+header("Content-type: text/html; charset=utf-8");
 require_once('connection.php');
 require_once('routes.php');
 require_once('libs/functions.php');

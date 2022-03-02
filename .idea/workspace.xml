@@ -5,127 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ec40303-c1be-4f3b-8178-baaa56b29494" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mvc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/Auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/File.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/Session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/Validator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/066vneq5b683ljpgibv8c5s5io.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/09r6mjd986qiak5d2e2jikbn1v.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/0tnr7jigvoj7qd156fp70q8e3s.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/11aovqaclor13pl6rb6g6btqn7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/131a2jei50662b03bq593jfqd6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/14icae6o70aqb46sk5ee53vng8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/18gcj2os9fa4ka902j46ngrhch.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/2rideppqr12d8t8m0fpl0icp0p.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/4e2fno4vldb1q7l5ns6dsqfndi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/4kfpb63iqliki6j3op3q5ljqt4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/604q9l09mj00jt11qq9n1rgog6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/6ctvkpvlp19jk7l49oatuia3bp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/72ebbk2t8t1srkk1gl6q3au0n1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/7dvss0g5ofppg5n10gi4e542ac.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/7ufoqjmocvertntlebl43s8gqn.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/8keopib5t617mruv46qppp3uqf.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/8mabvekf30n9fhlqile04j2849.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/8n3d3rtngql0m3s6k1g0tcb30a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/8v31bk5boeg2mlgfhdsugpkumk.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/920ou6ker00n0s13nuieeva6vp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/9b72q20g862n773e21rm17ambj.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/ap1m1no2qqt3rcgtujqg8k2ga0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/aq1akkvtnh9jpvonc03scomvep.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/at8urhqqdp5iufcqunsdmnl4ig.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/bcmohkn77adquu4pdhgv86u8nd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/bm2h1c8q8jlsjg1quoj8fiuces.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/cecipmbccr1dsr6shdfo9fq95p.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/d6fi142mbc8diputjjtn0sr6hg.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/de2fgh8i57jlkqqsen4so6rgv5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/dmot1kt8cmepu3keoqqv7fel32.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/dopqq7vmvidc10pu6losopoenv.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/dtn8phk7o7faqu3d3ujhm1527i.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/efru8rr1jc8k8726ok830vcceg.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/ei5fkirv292f8a8c0am6b47f5s.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/et16u3beoa9c1vooi9p1p4nf1d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/ev8kua13vko9euvd6soun72gh5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/gmugto2bgl7mfg5eg49of1qljn.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/hg80jo4sf5lo06h4pn9il53gr7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/hj53492h5um3um6g29o2blca8j.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/homhnbgenjupvpl78cmdqd9pmq.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/hsslgghatf1t5ns247g7rg5gr3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/ioee2vqnj1kdo28e6qdtao3tkk.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/jd7e54q6l3i9lndaq1qaudu8fe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/k6g55417ccb8osogq4lo4dbkl9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/kcktkl08t6f29ojo93nh135r4k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/knvu3edh6lbgpni9obmg4c3mkm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/l5p88i26jfu8a3lac20t8a006m.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/mcv7r9bj8o1mtc5tu7n80vrv4q.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/nd1b2fl1f6oakcoo3vlf3epkcp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/ndt45l2p4308jbsvhgralfkipa.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/ofge72au4nkm5082bfmbtfa9ah.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/p0gujhjllb4qt60rn9f4i5ffuv.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/phpm1t8e4vs9vtgklg4ghlunmo.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/pi907jqn85uclogh5d3mfjbhd9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/ppj5rrtv9jrjqtv0s053f7l0l9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/q2r07n3h0gnojlvr9qt1ljka5n.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/qqe2sk76ugldip9ihohs6be21k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/rtse918cjfaafqmdj5for10t87.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/s11diladn5iqhovogjlv493p2a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_14icae6o70aqb46sk5ee53vng8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_2rideppqr12d8t8m0fpl0icp0p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_4e2fno4vldb1q7l5ns6dsqfndi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_6ctvkpvlp19jk7l49oatuia3bp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_8n3d3rtngql0m3s6k1g0tcb30a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_aq1akkvtnh9jpvonc03scomvep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_bcmohkn77adquu4pdhgv86u8nd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_bm2h1c8q8jlsjg1quoj8fiuces" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_d6fi142mbc8diputjjtn0sr6hg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_dopqq7vmvidc10pu6losopoenv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_dtn8phk7o7faqu3d3ujhm1527i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_efru8rr1jc8k8726ok830vcceg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_ei5fkirv292f8a8c0am6b47f5s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_hj53492h5um3um6g29o2blca8j" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_hsslgghatf1t5ns247g7rg5gr3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_ja4vm3fsol3a65ebghl2roufno" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_jd7e54q6l3i9lndaq1qaudu8fe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_l5p88i26jfu8a3lac20t8a006m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_mcv7r9bj8o1mtc5tu7n80vrv4q" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_ndt45l2p4308jbsvhgralfkipa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_nsrphjuihg2qq1h696cmfta8e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_phpm1t8e4vs9vtgklg4ghlunmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_ppj5rrtv9jrjqtv0s053f7l0l9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_q2r07n3h0gnojlvr9qt1ljka5n" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_uccnjr6vgr3mgm5ab27mk819uv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_v112nipgntprulnail73ke8ddc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_viquv8j27sns6ids7bvg30l754" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_vtothqjqnecvmbnpll5gi8fned" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/t2u2ort4ff3o8fl3om0vhoss52.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/tas7dteph08lsk0bgn9mmto77j.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/u0sd7kmdfjgg15mkl1b0a3k9dh.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/uccnjr6vgr3mgm5ab27mk819uv.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/v112nipgntprulnail73ke8ddc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/v8bdmqsgcf52dvmos3b02n5gp2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/vc6mcurql613nvut9jouc2nu5p.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/viquv8j27sns6ids7bvg30l754.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/vtothqjqnecvmbnpll5gi8fned.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Admin/CategoryAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/CategoryAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Admin/ProductAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/PostAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin_source/js/mask.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/admin_source/js/mask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/client_source/assets/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/client_source/assets/js/main.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/client_source/js/custom/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/client_source/js/custom/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/7ipvvhd547uov5rv3mm73dqe6d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/session/7ipvvhd547uov5rv3mm73dqe6d.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/category/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/home/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/layouts/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/layouts/css.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/layouts/master.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/layouts/master.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/layouts/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/layouts/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/layouts/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/layouts/script.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/user/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/old/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/product/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/post/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/product/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/post/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/product/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/post/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/product/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/post/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/user/create_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/create_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/user/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/css.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/user/edit_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/edit_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/user/index1.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/old/index1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/user/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/script.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/user/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/old/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/client/auth/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/auth/script.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/client/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/client/user_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/user_edit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ngay31" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Download/mvcprj" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -251,7 +153,8 @@
       <workItem from="1646014742644" duration="4940000" />
       <workItem from="1646061654936" duration="12776000" />
       <workItem from="1646100432792" duration="12083000" />
-      <workItem from="1646187475841" duration="5896000" />
+      <workItem from="1646187475841" duration="20471000" />
+      <workItem from="1646243147085" duration="7450000" />
     </task>
     <servers />
   </component>
@@ -269,16 +172,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/config.php</url>
-          <line>1</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

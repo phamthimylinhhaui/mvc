@@ -36,6 +36,7 @@
                 </div>
                 <input type="text" class="form-control username" name="username" >
             </div>
+            <span class="help-block username-validate" />
         </div>
 
         <div class="row form-group">
@@ -45,6 +46,7 @@
                 </div>
                 <input type="password" class="form-control password" name="password" >
             </div>
+            <span class="help-block password-validate" />
         </div>
 
         <div class="row form-group">
@@ -54,6 +56,7 @@
                 </div>
                 <input type="password" class="form-control re_password" name="re_password" >
             </div>
+            <span class="help-block re-password-validate" />
         </div>
 
         <div class="row form-group">
@@ -93,8 +96,12 @@
         </div>
     </form>
 </div>
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
 
+<?php include "views/admin/user/script.php"?>
+<!--<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>-->
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"></script>
 <script type="text/javascript">
 
 
@@ -236,10 +243,13 @@
     }
 
 
-    $(document).ready(function(){
-        //validateRegisterForm();
-        initCreateUserForm();
 
+    $(document).ready(function(){
+        setTimeout(function(){
+            initCreateUserForm();
+            validateRegisterForm();
+
+        },2000);
     });
 
 </script>

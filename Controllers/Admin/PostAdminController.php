@@ -1,7 +1,7 @@
 <?php
 require_once('Controllers/Controller.php');
 
-class ProductAdminController extends Controller
+class PostAdminController extends Controller
 {
     public function __construct()
     {
@@ -11,21 +11,21 @@ class ProductAdminController extends Controller
     public function index()
     {
 
-        return $this->view('admin/product/index');
+        return $this->view('admin/post/index');
     }
     public function create()
     {
 
-        return $this->view('admin/product/create');
+        return $this->view('admin/post/create');
     }
     public function update()
     {
 
-        return $this->view('admin/product/update');
+        return $this->view('admin/post/update');
     }
     public function detail()
     {
 
-        return $this->view('admin/product/detail');
+        return $this->view('admin/post/detail');
     }
 }

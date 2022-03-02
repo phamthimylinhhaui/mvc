@@ -10,7 +10,7 @@
   $('#ccn').mask('9999 9999 9999 9999');
   $('#ssn').mask('999-99-9999');
   $('#currency').mask('999,999,999.99');
-  $('#product').mask('a*-999-a999', {
+  $('#post').mask('a*-999-a999', {
     placeholder: ' '
   });
   $('#eyescript').mask('~9.99 ~9.99 999');

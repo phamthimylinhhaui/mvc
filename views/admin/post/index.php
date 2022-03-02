@@ -95,7 +95,7 @@ Quản lý sản phẩm
                                     <td>378,000 vnđ</td>
                                     <td>10</td>
                                     <td class="text-right">
-                                        <a href="<?php echo Route::name('product.detail')?>"
+                                        <a href="<?php echo Route::name('post.detail')?>"
                                            class="btn btn-sm bg-success-light mr-2">
                                             <i class="far fa-eye mr-1"></i>Chi tiết
                                         </a>

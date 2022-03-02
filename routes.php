@@ -31,11 +31,11 @@ const CONTROLLERS = array(
         'use'     => 'Client/CategoryController',
         'action'  => 'category'
     ],
-// product
+// post
     [
         'method'  => 'GET',
         'url'     => '/product_detail',
-        'name'    => 'product',
+        'name'    => 'post',
         'use'     => 'Client/ProductController',
         'action'  => 'product_detail'
     ],
@@ -151,55 +151,34 @@ const CONTROLLERS = array(
         'use'     => 'Admin/HomeAdminController',
         'action'  => 'admin'
     ],
-//category
-    [
-        'method'  => 'GET',
-        'url'     => '/category_admin',
-        'name'    => 'category',
-        'use'     => 'Admin/CategoryAdminController',
-        'action'  => 'index'
-    ],
-    [
-        'method'  => 'GET',
-        'url'     => '/category_update',
-        'name'    => 'category.update',
-        'use'     => 'Admin/CategoryAdminController',
-        'action'  => 'category_update'
-    ],
-    [
-        'method'  => 'GET',
-        'url'     => '/category_create',
-        'name'    => 'category.create',
-        'use'     => 'Admin/CategoryAdminController',
-        'action'  => 'category_create'
-    ],
-//product
+
+//post
     [
         'method'  => 'GET',
         'url'     => '/product_admin',
         'name'    => 'product_admin',
-        'use'     => 'Admin/ProductAdminController',
+        'use'     => 'Admin/PostAdminController',
         'action'  => 'index'
     ],
     [
         'method'  => 'GET',
         'url'     => '/product_create',
-        'name'    => 'product.create',
-        'use'     => 'Admin/ProductAdminController',
+        'name'    => 'post.create',
+        'use'     => 'Admin/PostAdminController',
         'action'  => 'create'
     ],
     [
         'method'  => 'GET',
         'url'     => '/product_update',
-        'name'    => 'product.update',
-        'use'     => 'Admin/ProductAdminController',
+        'name'    => 'post.update',
+        'use'     => 'Admin/PostAdminController',
         'action'  => 'update'
     ],
     [
         'method'  => 'GET',
         'url'     => '/product_detailAdmin',
-        'name'    => 'product.detail',
-        'use'     => 'Admin/ProductAdminController',
+        'name'    => 'post.detail',
+        'use'     => 'Admin/PostAdminController',
         'action'  => 'detail'
     ],
 //bill
@@ -292,6 +271,29 @@ const CONTROLLERS = array(
         'name'    => 'admin.users.delete',
         'use'     => 'Admin/UserAdminController',
         'action'  => 'deleteUser'
+    ],
+
+//category
+    [
+        'method'  => 'GET',
+        'url'     => '/category_admin',
+        'name'    => 'category',
+        'use'     => 'Admin/CategoryAdminController',
+        'action'  => 'index'
+    ],
+    [
+        'method'  => 'GET',
+        'url'     => '/category_update',
+        'name'    => 'category.update',
+        'use'     => 'Admin/CategoryAdminController',
+        'action'  => 'category_update'
+    ],
+    [
+        'method'  => 'GET',
+        'url'     => '/category_create',
+        'name'    => 'category.create',
+        'use'     => 'Admin/CategoryAdminController',
+        'action'  => 'category_create'
     ],
 
 //    [

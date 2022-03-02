@@ -91,7 +91,7 @@
     </form>
 
 </div>
-
+<?php include "views/admin/user/script.php"?>
 <script type="text/javascript">
 
     function initEditUserForm(){

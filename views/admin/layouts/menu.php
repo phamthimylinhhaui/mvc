@@ -52,13 +52,13 @@
                 <li class="">
                     <a href="/category_admin">
                         <i class="fas fa-layer-group"></i>
-                        <span>Quản lý danh mục</span>
+                        <span>Quản lý chuyên mục</span>
                     </a>
                 </li>
                 <li class="">
                     <a href="/product_admin">
                         <i class="fab fa-buffer"></i>
-                        <span>Quản lý sản phẩm</span>
+                        <span>Quản lý bài viết</span>
                     </a>
                 </li>
                 <li class="">
@@ -68,7 +68,7 @@
                     </a>
                 </li>
                 <li class="">
-                    <a href="<?php echo Route::name("adminUser")?>" >
+                    <a href="<?php echo Route::name('admin.users')?>" >
                         <i class="fas fa-user"></i>
                         <span>Quản lý tài khoản </span>
                     </a>
