@@ -5,37 +5,28 @@
         <div class="row">
             <div class="col-lg-4 col-md-6">
                 <div class="shipping-item">
-                    <div class="shipping-img">
-                        <img src="https://cuahangdongho.vn/wp-content/uploads/2020/06/xe-tai.png"
-                             alt="Shipping Icon">
-                    </div>
+
                     <div class="shipping-content">
-                        <h5 class="title">Miễn phí vận chuyển</h5>
-                        <p class="short-desc mb-0">Ưu đãi giao hàng tận nhà miễn phí</p>
+                        <h5 class="title">CẬP NHẬT THÔNG TIN MỚI</h5>
+                        <p class="short-desc mb-0">luôn luôn cập nhật kịp thời những tin tức mới nhất</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 pt-6 pt-md-0">
                 <div class="shipping-item">
-                    <div class="shipping-img">
-                        <img src="https://cuahangdongho.vn/wp-content/uploads/2020/06/logo1.png"
-                             alt="Shipping Icon">
-                    </div>
+
                     <div class="shipping-content">
                         <h5 class="title">Hỗ trợ trực tuyến</h5>
-                        <p class="short-desc mb-0">Hỗ trợ trực tuyến 24/7</p>
+                        <p class="short-desc mb-0">Đội ngũ hỗ trợ giải đáp thắc mắc, yêu cầu trực tuyến 24/7 </p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 pt-6 pt-lg-0">
                 <div class="shipping-item">
-                    <div class="shipping-img">
-                        <img src="https://cuahangdongho.vn/wp-content/uploads/2020/06/the-besst.png"
-                             alt="Shipping Icon">
-                    </div>
+
                     <div class="shipping-content">
-                        <h5 class="title">Bảo đảm chất lượng</h5>
-                        <p class="short-desc mb-0">Sản phẩm bảo đảm chất lượng</p>
+                        <h5 class="title">Bảo đảm thông tin chính xác</h5>
+                        <p class="short-desc mb-0">Nơi nói không với tin rác gây hoang mang cho dư luận cộng đồng</p>
                     </div>
                 </div>
             </div>
@@ -62,7 +53,7 @@
                             </a>
                         </div>
                         <p class="short-desc mb-2">
-                            <b>Vascara | Thương hiệu thời trang balo túi xách, giày dép, bóp ví nữ đẹp</b>
+                            <b>Vascara | Trang luôn cung cấp một cách kịp thời thông tin trong nước cũng như quốc tế</b>
                         </p>
                         <div class="widget-contact-info pb-6">
                             <ul>
@@ -102,9 +93,6 @@
                                 <a href="/show-login"> Đăng Xuất</a>
                             </li>
                             <li>
-                                <a href="/cart_index"> Giỏ Hàng</a>
-                            </li>
-                            <li>
                                 <a href="/user_detail"> Quản lí tài khoản</a>
                             </li>
                         </ul>
@@ -114,31 +102,31 @@
 
                 <div class="col-lg-3  col-md-3 pt-10 pt-lg-0">
                     <div class="widget-item">
-                        <h3 class="widget-title mb-5">Danh mục sản phẩm</h3>
+                        <h3 class="widget-title mb-5">Chuyên mục</h3>
                         <ul class="widget-list-item">
 
                             <li>
-                                <a href="/category">Giày Cao gót</a>
+                                <a href="/category">Xã hội</a>
                             </li>
 
                             <li>
-                                <a href="/category">giày sandals</a>
+                                <a href="/category">Đời sống</a>
                             </li>
 
                             <li>
-                                <a href="/category">giày Sneaker</a>
+                                <a href="/category">Pháp luật</a>
                             </li>
 
 
                             <li>
-                                <a href="/category">Giày Boots</a>
+                                <a href="/category">Y tế</a>
                             </li>
 
                             <li>
-                                <a href="/category">Giày da thật</a>
+                                <a href="/category">Tổ ấm</a>
                             </li>
                             <li>
-                                <a href="/category">Giày lười</a>
+                                <a href="/category">Bài học cuộc sống</a>
                             </li>
 
                         </ul>

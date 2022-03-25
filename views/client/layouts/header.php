@@ -1,33 +1,30 @@
 
-
-
-
-
 <div class="header-top border-bottom d-none d-md-block" style="padding: 8px 0px;">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-8">
+            <div class="col-4">
                 <div class="header-top-left">
                     <ul class="dropdown-wrap text-matterhorn">
                         <li style="margin-right: 50px;">
                             <i class="pe-7s-map-marker"></i>
-                            Số 298 Đ. Cầu Diễn, Minh Khai, Bắc Từ Liêm, Hà Nội
+                           Việt Nam - Thứ 4, 16/03/2022
                         </li>
-                        <li>
-                            <i class="pe-7s-piggy"></i>
-                            <a> Freeship cho đơn hàng từ 500.000đ </a>
-                        </li>
-
-
                     </ul>
                 </div>
+
+            </div>
+            <div class="col-4">
+                <span style="margin-right: 50px;">
+                    <b style="color: #F15B67; font-size: 18px;">#Traiding:</b>
+                    Giá xăng
+                </span>
             </div>
             <div class="col-4">
                 <div class="header-top-right text-matterhorn">
                     <p class="shipping mb-0">
                         <i class="pe-7s-alarm"></i>
 
-                        Mở cửa và phục vụ khách hàng 24/24h
+                        <b>Tin tức 24h</b>
                     </p>
                 </div>
             </div>
@@ -48,7 +45,7 @@
 
                         <div class="header-searchbox">
 
-                            <input class="input-field" type="text" placeholder="Nhập sản phầm tìm kiếm"
+                            <input class="input-field" type="text" placeholder="Nhập từ khóa tìm kiếm"
                                    id="keyword">
                             <button class="btn btn-outline-whisper btn-primary-hover" type="submit"
                                     onclick="onSearch()"><a href="/category"><i class="pe-7s-search"></i></a>
@@ -103,22 +100,7 @@
                                     <i class="pe-7s-search"></i>
                                 </a>
                             </li>
-                            <li class="minicart-wrap me-3 me-lg-0">
 
-                                <a title="Cartlist" href="cart_index" class="minicart-btn ">
-                                    <i class="pe-7s-shopbag"></i>
-                                    <span
-                                            style="position: absolute; color: #e87474; left: 46px; font-weight: 600; top: -5px; font-size: 14px; ">Tổng:</span>
-                                    <sup id="hdk-count" class="quantity"> 0</sup>
-
-                                </a>
-                                <p class="dieuchinhcsscart">
-                                    <small id="total-amount" style="font-weight:600">0</small>
-                                </p>
-
-
-
-                            </li>
                             <li class="mobile-menu_wrap d-block d-lg-none">
                                 <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn pl-0">
                                     <i class="pe-7s-menu"></i>
@@ -160,27 +142,27 @@
 
 
                                 <li>
-                                    <a href="<?php echo Route::name('category')?>">Giày Cao gót</a></li>
+                                    <a href="<?php echo Route::name('category')?>">Xã hội</a></li>
 
 
                                 <li>
-                                    <a href="/category">Giày Sandals</a></li>
+                                    <a href="/category">Đời sống</a></li>
 
 
                                 <li>
-                                    <a href="/category">Giày Sneaker</a></li>
+                                    <a href="/category">Pháp luật</a></li>
 
 
 
                                 <li>
-                                    <a href="/category">Giày Boots</a></li>
+                                    <a href="/category">Y tế</a></li>
 
 
                                 <li>
-                                    <a href="/category">Giày da thật</a></li>
+                                    <a href="/category">Tổ ấm</a></li>
 
                                 <li>
-                                    <a href="/category">Giày Lười</a></li>
+                                    <a href="/category">Bài học cuộc sống</a></li>
                                 <li>
 
                                     <?php

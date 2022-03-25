@@ -5,29 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ec40303-c1be-4f3b-8178-baaa56b29494" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Admin/CategoryAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/CategoryAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Admin/ProductAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/PostAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/admin_source/js/mask.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/admin_source/js/mask.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/client_source/assets/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/client_source/assets/js/main.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/client_source/js/custom/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/client_source/js/custom/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/CategoryRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/CategoryRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/client_source/assets/images/banner/banner2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/client_source/assets/images/banner/banner2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/7ipvvhd547uov5rv3mm73dqe6d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/session/7ipvvhd547uov5rv3mm73dqe6d.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/2suo7cvfgl4sp2hpqftni7m7ch.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/7ipvvhd547uov5rv3mm73dqe6d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/9jmpo6ntsvkr64kn64o7o73fud.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/a1n9ub57nb4lbu0jkokuskd3i1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/lrf8ch60l2taavdgb82vob7au9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/sess_2suo7cvfgl4sp2hpqftni7m7ch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/sess_7ipvvhd547uov5rv3mm73dqe6d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/sess_9jmpo6ntsvkr64kn64o7o73fud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/sess_a1n9ub57nb4lbu0jkokuskd3i1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/sess_gi50bv8h4i5nc9n4h0bdemj4d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/sess_lrf8ch60l2taavdgb82vob7au9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/category/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/home/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/layouts/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/layouts/css.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/layouts/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/layouts/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/layouts/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/layouts/script.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/product/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/post/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/product/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/post/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/product/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/post/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/product/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/post/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/user/create_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/create_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/user/edit_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/edit_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/user/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/script.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/client/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/auth/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/client/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/client/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/layouts/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/client/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/layouts/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Download/mvcprj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -155,6 +159,14 @@
       <workItem from="1646100432792" duration="12083000" />
       <workItem from="1646187475841" duration="20471000" />
       <workItem from="1646243147085" duration="7450000" />
+      <workItem from="1646670860010" duration="596000" />
+      <workItem from="1647223731398" duration="1606000" />
+      <workItem from="1647402623811" duration="9187000" />
+      <workItem from="1648022908702" duration="767000" />
+      <workItem from="1648024242648" duration="8000" />
+      <workItem from="1648131783434" duration="1159000" />
+      <workItem from="1648133443218" duration="4921000" />
+      <workItem from="1648195087632" duration="1013000" />
     </task>
     <servers />
   </component>

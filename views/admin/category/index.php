@@ -47,10 +47,6 @@ Quản lý danh mục
                     </th>
 
                     <th>
-                        Trạng thái
-                    </th>
-
-                    <th>
                         Ngày tạo
                     </th>
                     <th>
@@ -74,9 +70,7 @@ Quản lý danh mục
                             <?php echo $category->name;?>
                         </td>
 
-                        <td>
-                            <?php echo $category->status;?>
-                        </td>
+
                         <td>
                             <?php echo $category->created_at;?>
                         </td>

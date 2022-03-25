@@ -64,7 +64,7 @@
                 <li class="">
                     <a href="/bill_admin">
                         <i class="fas fa-shopping-cart"></i>
-                        <span>Quản lý đơn hàng</span>
+                        <span>Quản lý Tags</span>
                     </a>
                 </li>
                 <li class="">

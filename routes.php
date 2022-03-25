@@ -9,13 +9,13 @@ const CONTROLLERS = array(
       'use'     => 'Client/HomeController',
       'action'  => 'index'
     ],
-//    [
-//        'method'  => 'GET',
-//        'url'     => '/home',
-//        'name'    => 'home',
-//        'use'     => 'Client/HomeController',
-//        'action'  => 'index'
-//    ],
+    [
+        'method'  => 'GET',
+        'url'     => '/home',
+        'name'    => 'home',
+        'use'     => 'Client/HomeController',
+        'action'  => 'index'
+    ],
     [
         'method'  => 'POST',
         'url'     => '/home_post',
