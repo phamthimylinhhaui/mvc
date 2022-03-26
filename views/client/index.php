@@ -75,7 +75,7 @@ Trang chủ
                         </p>
                         <div class="button-wrap pt-8">
                             <a class="btn btn-custom-size lg-size btn-primary btn-dark-hover rounded-0 main-bg-vascara btn-main-vascara"
-                               href="#">Xem Thêm</a>
+                               href="/product_detail">Xem Thêm</a>
                         </div>
                     </div>
                 </div>
@@ -100,58 +100,58 @@ Trang chủ
         <!--CAROUSEL START-->
         <div class="single_post post_type6 post_type7 col-md-3">
                     <div class="post_img gradient1">
-                        <a href="#">
+                        <a href="/product_detail">
                             <img src="assets/client_source/IMG/feature22.jpg" alt="">
                         </a>
                     </div>
                     <div class="single_post_text">
-                        <div class="meta5">	<a href="#">Tin tức</a>
-                            <a href="#">26 - 03 - 2022</a>
+                        <div class="meta5">	<a href="/product_detail">Tin tức</a>
+                            <a href="/product_detail">26 - 03 - 2022</a>
                         </div>
                         <h4>
-                            <a href="#">Xe không qua hầm vẫn phải trả tiền: Tổng cục Đường bộ nói gì?</a>
+                            <a href="/product_detail">Xe không qua hầm vẫn phải trả tiền: Tổng cục Đường bộ nói gì?</a>
                         </h4>
                     </div>
                 </div >
         <div class="single_post post_type6 post_type7 col-md-3">
                     <div class="post_img gradient1">
-                        <a href="#">
+                        <a href="/product_detail">
                             <img src="assets/client_source/IMG/feature33.jpg" alt="">
                         </a>
                     </div>
                     <div class="single_post_text">
-                        <div class="meta5">	<a href="#">Tin tức</a>
-                            <a href="#">24 - 03 - 2022</a>
+                        <div class="meta5">	<a href="/product_detail">Tin tức</a>
+                            <a href="/product_detail">24 - 03 - 2022</a>
                         </div>
                         <h4>
-                            <a href="#">Tổ chức hội nghị bàn tròn lắng nghe ý kiến của nhân sĩ, trí thức</a>
+                            <a href="/product_detail">Tổ chức hội nghị bàn tròn lắng nghe ý kiến của nhân sĩ, trí thức</a>
                         </h4>
                     </div>
                 </div >
         <div class="single_post post_type6 post_type7 col-md-3">
                     <div class="post_img gradient1">
-                        <a href="#">
+                        <a href="/product_detail">
                             <img src="assets/client_source/IMG/feature44.jpg" alt="">
                         </a>
                     </div>
                     <div class="single_post_text">
-                        <div class="meta5">	<a href="#">Tin tức</a>
-                            <a href="#">24 - 03 - 2022</a>
+                        <div class="meta5">	<a href="/product_detail">Tin tức</a>
+                            <a href="/product_detail">24 - 03 - 2022</a>
                         </div>
                         <h4>
-                            <a href="#">Khởi tố, bắt tạm giam bà Nguyễn Phương Hằng</a>
+                            <a href="/product_detail">Khởi tố, bắt tạm giam bà Nguyễn Phương Hằng</a>
                         </h4>
                     </div>
                 </div >
         <div class="single_post post_type6 post_type7 col-md-3">
                     <div class="post_img gradient1">
-                        <a href="#">
+                        <a href="/product_detail">
                             <img src="assets/client_source/IMG/feature55.jpg" alt="">
                         </a>
                     </div>
                     <div class="single_post_text">
-                        <div class="meta5">	<a href="#">Tin tức</a>
-                            <a href="#">25 - 03 - 2022</a>
+                        <div class="meta5">	<a href="/product_detail">Tin tức</a>
+                            <a href="/product_detail">25 - 03 - 2022</a>
                         </div>
                         <h4>Tranh cãi thiết kế cầu Trần Hưng Đạo tương tự cầu Rào được cách điệu?Xe không qua hầm vẫn phải trả tiền?</a>
                         </h4>
@@ -163,61 +163,61 @@ Trang chủ
         <!--CAROUSEL START-->
         <div class="single_post post_type6 post_type7 col-md-3">
             <div class="post_img gradient1">
-                <a href="#">
+                <a href="/product_detail">
                     <img src="assets/client_source/IMG/feature1.jpg" alt="">
                 </a>
             </div>
             <div class="single_post_text">
-                <div class="meta5">	<a href="#">Tin tức</a>
-                    <a href="#">22 - 03 - 2022</a>
+                <div class="meta5">	<a href="/product_detail">Tin tức</a>
+                    <a href="/product_detail">22 - 03 - 2022</a>
                 </div>
                 <h4>
-                    <a href="#">Cần Thơ mua kít test Việt Á hơn 39 tỷ, chuyển hồ sơ cho công an nếu sai phạm</a>
+                    <a href="/product_detail">Cần Thơ mua kít test Việt Á hơn 39 tỷ, chuyển hồ sơ cho công an nếu sai phạm</a>
                 </h4>
             </div>
         </div >
         <div class="single_post post_type6 post_type7 col-md-3">
             <div class="post_img gradient1">
-                <a href="#">
+                <a href="/product_detail">
                     <img src="assets/client_source/IMG/feature2.jpg" alt="">
                 </a>
             </div>
             <div class="single_post_text">
-                <div class="meta5">	<a href="#">Tin tức</a>
-                    <a href="#">26 - 03 - 2022</a>
+                <div class="meta5">	<a href="/product_detail">Tin tức</a>
+                    <a href="/product_detail">26 - 03 - 2022</a>
                 </div>
                 <h4>
-                    <a href="#">Tham gia đá gà ăn tiền, một đại biểu HĐND ở Bạc Liêu bị bãi nhiệm</a>
+                    <a href="/product_detail">Tham gia đá gà ăn tiền, một đại biểu HĐND ở Bạc Liêu bị bãi nhiệm</a>
                 </h4>
             </div>
         </div >
         <div class="single_post post_type6 post_type7 col-md-3">
             <div class="post_img gradient1">
-                <a href="#">
+                <a href="/product_detail">
                     <img src="assets/client_source/IMG/feature3.jpg" alt="">
                 </a>
             </div>
             <div class="single_post_text">
-                <div class="meta5">	<a href="#">Tin tức</a>
-                    <a href="#">21 - 03 - 2022</a>
+                <div class="meta5">	<a href="/product_detail">Tin tức</a>
+                    <a href="/product_detail">21 - 03 - 2022</a>
                 </div>
                 <h4>
-                    <a href="#">Bộ Công an luôn quán triệt quan điểm không 'cua cậy càng, cá cậy vây'</a>
+                    <a href="/product_detail">Bộ Công an luôn quán triệt quan điểm không 'cua cậy càng, cá cậy vây'</a>
                 </h4>
             </div>
         </div >
         <div class="single_post post_type6 post_type7 col-md-3">
             <div class="post_img gradient1">
-                <a href="#">
+                <a href="/product_detail">
                     <img src="assets/client_source/IMG/feature4.jpg" alt="">
                 </a>
             </div>
             <div class="single_post_text">
-                <div class="meta5">	<a href="#">Tin tức</a>
-                    <a href="#">26 - 03 - 2022</a>
+                <div class="meta5">	<a href="/product_detail">Tin tức</a>
+                    <a href="/product_detail">26 - 03 - 2022</a>
                 </div>
                 <h4>
-                    <a href="#">Hi hữu: Lào Cai đề nghị cấp đất cho thủy điện Mây Hồ nhầm vị trí</a>
+                    <a href="/product_detail">Hi hữu: Lào Cai đề nghị cấp đất cho thủy điện Mây Hồ nhầm vị trí</a>
                 </h4>
             </div>
         </div >

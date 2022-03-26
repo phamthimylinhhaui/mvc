@@ -1,1 +1,0 @@
-{"auth_user":{"id":"16","0":"16","username":"phamthilinh","password":"202cb962ac59075b964b07152d234b70","email":"linh@gmail.com","first_name":"Linh","middle_name":"Th\u1ecb M\u1ef9","last_name":"Ph\u1ea1m","date_of_birth":"2000-12-25 00:00:00","avatar":"public\/avatar\/phamthilinh-1645604729.png","created_at":null,"updated_at":null,"deleted_at":null}}

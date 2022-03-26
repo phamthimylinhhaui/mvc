@@ -35,7 +35,7 @@ const CONTROLLERS = array(
     [
         'method'  => 'GET',
         'url'     => '/product_detail',
-        'name'    => 'post',
+        'name'    => 'post_detail',
         'use'     => 'Client/ProductController',
         'action'  => 'product_detail'
     ],
