@@ -295,6 +295,21 @@ const CONTROLLERS = array(
         'use'     => 'Admin/CategoryAdminController',
         'action'  => 'category_create'
     ],
+    [
+        'method'  => 'POST',
+        'url'     => '/category_edit',
+        'name'    => 'admin.category.show-form-edit',
+        'use'     => 'Admin/CategoryAdminController',
+        'action'  => 'category_show_form_edit'
+    ],
+    [
+        'method'  => 'POST',
+        'url'     => '/category_create',
+        'name'    => 'admin.category.show-form-create',
+        'use'     => 'Admin/CategoryAdminController',
+        'action'  => 'category_show_form_create'
+    ],
+
 
 //    [
 //        'method'  => 'GET',

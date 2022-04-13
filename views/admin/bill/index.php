@@ -3,7 +3,7 @@
 <?php include 'views/admin/layouts/master.php' ?>
 
 <?php startblock('title') ?>
-Quản lý hóa đơn
+Quản lý Thẻ
 <?php endblock() ?>
 
 
@@ -16,7 +16,7 @@ Quản lý hóa đơn
             <div class="page-header">
                 <div class="row">
                     <div class="col">
-                        <h3 class="page-title">Quản lý hoá đơn</h3>
+                        <h3 class="page-title">Quản lý thẻ</h3>
                     </div>
 
                 </div>
@@ -33,9 +33,8 @@ Quản lý hóa đơn
                                     <thead class="text-center">
                                     <tr>
                                         <th>#</th>
-                                        <th>Mã đơn hàng</th>
-                                        <th>Người mua</th>
-                                        <th>Số tiền</th>
+                                        <th>Mã thẻ</th>
+                                        <th>Tên thẻ</th>
                                         <th>Ngày tạo</th>
                                         <th>Trạng thái</th>
                                         <th>Hành động</th>
@@ -45,15 +44,10 @@ Quản lý hóa đơn
                                     <tr>
                                         <td>1</td>
                                         <td>6</td>
-                                        <td>Khách hàng 1</td>
-                                        <td>320,000 vnđ</td>
-                                        <td>10/4/2021 12:15:51 AM</td>
+                                        <td>Nổi bật</td>
+                                        <td>25/12/2021</td>
                                         <td>
-                                            <select id="6-status" class="form-control select select2-hidden-accessible" aria-label="Default select example">
-                                                <option value="Đang giao">Đang giao</option>
-                                                <option value="Đang giao" selected>Đã nhận hàng</option>
-                                                <option value="Đã huỷ">Đã huỷ</option>
-                                            </select>
+                                            Đang hoạt động
                                         </td>
                                         <td>
                                             <a onclick="updateStatus(6)" class="btn btn-sm bg-success-light mr-2" href="/bill_update">

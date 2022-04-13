@@ -15,11 +15,17 @@ Quản lý danh mục
                     <div class="col">
                         <h3 class="page-title">Quản lý danh mục</h3>
                     </div>
-                    <div class="col-auto">
-                        <a href="/category_create"
-                           class="btn btn-primary ml-3">
-                            <i class="fas fa-plus"></i> Thêm danh mục
-                        </a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary create-category" data-toggle="modal" data-target="#create-category" onclick="showFormCreateCategory();">
+                        Thêm mới
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="create-category" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content create-category">
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -36,6 +42,8 @@ Quản lý danh mục
             </div>
             <!-- End alert -->
 
+
+
             <table class="table users-table table-hover" id="list-categories">
                 <thead>
                 <tr>
@@ -48,6 +56,9 @@ Quản lý danh mục
 
                     <th>
                         Ngày tạo
+                    </th>
+                    <th>
+                        Ngày cập nhật
                     </th>
                     <th>
                         Tùy chọn
@@ -79,8 +90,8 @@ Quản lý danh mục
                         </td>
 
                         <td>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#edit-user"
-                                    onclick="">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#edit-category"
+                                    onclick="showFormEdit(<?php echo $category->id; ?>)">
                                 Sửa
                             </button>
 
@@ -104,6 +115,47 @@ Quản lý danh mục
 
 
 <script>
+    function showFormCreateCategory(){
+
+        // call ajax
+        $.ajax({
+            url:"<?php echo Route::name('admin.category.show-form-create')?>",
+            type:"POST",
+            data:{
+            },
+            success: function (data){
+                if (data.message==undefined){
+                    $('#create-category').find('.create-category').html(data);
+                }
+            },
+            error: function (){
+
+            },
+        });
+    }
+    
+    
+    function showFormEdit(categoryId){
+        //call ajax
+        $.ajax({
+            url:"<?php echo Route::name('admin.category.show-form-edit')?>",
+            type:"POST",
+            data:{
+                category_id:categoryId,
+            },
+            success: function (data){
+                if (data.message==undefined){
+                    $('#edit-category').find('.modal-content').html(data);
+                }
+            },
+            error: function (){
+
+            },
+        });
+    }
+    
+    
+    
     $(document).ready(function(){
         // alert("Thành công",'success');
 

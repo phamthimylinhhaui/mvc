@@ -14,13 +14,6 @@ class CategoryAdminController extends Controller
         $this->categoryRepository= new CategoryRepository();
         parent::__construct();
     }
-
-    public function index()
-    {
-
-        $categories=$this->categoryRepository->getAllCategory();
-        return $this->view('admin/category/index',compact('categories'));
-    }
     public function category_update()
     {
 
@@ -31,5 +24,29 @@ class CategoryAdminController extends Controller
 
         return $this->view('admin/category/create');
     }
+
+
+
+    public function index()
+    {
+        $categories=$this->categoryRepository->getAllCategory();
+        return $this->view('admin/category/index',compact('categories'));
+    }
+
+    public function category_show_form_edit(){
+        $category = (new Category())->find($this->data['category_id']);
+        //dd($category);
+        if(is_null($category)){
+            return $this->response([
+                'message' => 'Không tìm thấy chuyên mục'
+            ]);
+        }
+        return $this->view('admin/category/edit',compact('category'));
+    }
+    public function category_show_form_create()
+    {
+        return $this->view('admin/category/create_category');
+    }
+
 
 }

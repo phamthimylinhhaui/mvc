@@ -7,7 +7,7 @@ class Category extends Model
 
     protected $attributes=[
         'name',
-        'status',
+        'parentId',
     ];
     public function __construct($data = [])
     {

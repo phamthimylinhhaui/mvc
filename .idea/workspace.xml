@@ -6,11 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9ec40303-c1be-4f3b-8178-baaa56b29494" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Client/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Client/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Admin/CategoryAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/CategoryAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/sess_o8s1pltm547ongcphulb0m8a5s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/client/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/client/productdetail.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/client/productdetail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/bill/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/bill/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/category/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/post/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/post/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/user/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/user/script.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -146,7 +149,17 @@
       <workItem from="1648131783434" duration="1159000" />
       <workItem from="1648133443218" duration="4921000" />
       <workItem from="1648195087632" duration="2962000" />
-      <workItem from="1648281300493" duration="3748000" />
+      <workItem from="1648281300493" duration="6161000" />
+      <workItem from="1648395038054" duration="1228000" />
+      <workItem from="1648806400275" duration="6907000" />
+      <workItem from="1648865014438" duration="2014000" />
+      <workItem from="1648881148955" duration="2534000" />
+      <workItem from="1648913624502" duration="608000" />
+      <workItem from="1649000602374" duration="1087000" />
+      <workItem from="1649175570725" duration="594000" />
+      <workItem from="1649634430356" duration="11000" />
+      <workItem from="1649750005387" duration="1242000" />
+      <workItem from="1649862970949" duration="618000" />
     </task>
     <servers />
   </component>

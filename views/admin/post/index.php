@@ -13,7 +13,7 @@ Quản lý sản phẩm
         <div class="page-header">
             <div class="row">
                 <div class="col">
-                    <h3 class="page-title">Quản lý sản phẩm</h3>
+                    <h3 class="page-title">Quản lý bài viết</h3>
                 </div>
                 <div class="col-auto text-right">
                     <a class="btn btn-white ml-3"
@@ -23,7 +23,7 @@ Quản lý sản phẩm
                     </a>
                     <a href="/product_create"
                        class="btn btn-primary ml-3">
-                        <i class="fas fa-plus"></i> Thêm sản phẩm
+                        <i class="fas fa-plus"></i> Thêm bài viết
                     </a>
                 </div>
             </div>
@@ -46,7 +46,7 @@ Quản lý sản phẩm
                     <div class="row filter-row">
                         <div class="col-sm-6 col-md-3">
                             <div class="form-group">
-                                <label>Tên sản phẩm</label>
+                                <label>Tên bài viết</label>
                                 <input class="form-control" type="text" name="SearchString" />
                             </div>
                         </div>
@@ -73,27 +73,23 @@ Quản lý sản phẩm
                                 <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th>Tên sản phẩm</th>
-                                    <th>Danh mục</th>
-                                    <th>Giá</th>
-                                    <th>Số lượng còn</th>
+                                    <th>Tiêu đề bài viết</th>
+                                    <th>Chuyên mục</th>
                                     <th class="text-center">Hành động</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>40</td>
+
                                     <td>
 
 
                                         <img class="rounded service-img mr-1"
-                                             src="assets/giaydemo.jpg"
+                                             src="assets/client_source/assets/images/banner/banner2.png"
                                              alt="" />
-                                        Sản phẩm số 1
                                     </td>
-                                    <td>Danh mục 1</td>
-                                    <td>378,000 vnđ</td>
-                                    <td>10</td>
+                                    <td>Giá xăng</td>
+                                    <td>Thời sự</td>
                                     <td class="text-right">
                                         <a href="<?php echo Route::name('post.detail')?>"
                                            class="btn btn-sm bg-success-light mr-2">

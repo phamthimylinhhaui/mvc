@@ -29,7 +29,7 @@ Trang chủ Admin
                             <i class="far fa-user"></i>
                         </span>
                                 <div class="dash-widget-info">
-                                    <h3><?php echo "số người dùng ở đây"?></h3>
+                                    <h3><?php echo "50"?></h3>
                                     <h6 class="text-muted">Người dùng</h6>
                                 </div>
                             </div>

@@ -66,7 +66,7 @@
                 [2, 50, 100, 200, 'All'],
             ],
 
-            iDisplayLength: 2,
+            iDisplayLength: 25,
         };
 
         Object.assign(datatableConfig,config);
@@ -80,7 +80,7 @@
             });
         }).draw();
 
-        // init search in collumn table
+        // init search in column table
         table.columns().every(function () {
             var that = this;
 
